@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title></title>
+	<!-- <link rel="stylesheet" type="text/css" href="css/form_style.css"> -->
+	<link rel="stylesheet" type="text/css" href="css/boot_style.css">
+	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+</head>
+<body class="body">
+<div class="container mt-3">
+
+<h1 class="text-warning">Bienvenido a mi Página</h1>
+
+<img src="imagenes/usuarios.png" class="img-thumbnail" width="150" height="100">
+
+  <button type="button" class="btn btn-success" data-bs-toggle="modal" data-bs-target="#Register">
+    Registrar Usuarios
+  </button>
+</div>
+
+<!-- The Modal -->
+<div class="modal" id="Register">
+  <div class="modal-dialog">
+    <div class="modal-content">
+
+      <!-- Modal Header -->
+      <div class="modal-header">
+        <h4 class="modal-title">Formulario de Registro</h4>
+        <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+      </div>
+
+      <!-- Modal body -->
+      <div class="modal-body">
+<form action="login.html">
+<label class="label">N° Identificación: </label>
+<input class="form-control" type="number" name="id_usu" required placeholder="Digite su ID">
+<label class="label2">Primer Nombre: </label>
+<input class="form-control" type="text" name="p_nombre" required placeholder="Digite su Primer Nombre">
+
+<label class="label">Segundo Nombre: </label>
+<input class="form-control" type="text" name="s_nombre" placeholder="Digite su Segundo Nombre">
+
+<label class="label2">Primer Apellido: </label>
+<input class="form-control" type="text" name="p_apell" required placeholder="Digite su Primer Apellido">
+
+<label class="label">Segundo Apellido: </label>
+<input class="form-control" type="text" name="s_apell" placeholder="Digite su Segundo Apellido">
+
+<input type="submit" value="Registrar" class="btn btn-success">
+
+
+</form>
+      </div>
+
+    
+    </div>
+  </div>
+</div>
+
+
+</body>
+</html>

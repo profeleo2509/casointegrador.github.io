@@ -1,0 +1,13 @@
+.label { color: #06565D;
+font-size:20px }
+.label2 { color: #011E21  }	
+
+input {
+  padding: 12px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
+}
+
+.body {
+ background-color: #24B8C4;
+}
